@@ -1,0 +1,14 @@
+version: "3"
+
+services:
+  desktop_minimal:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: desktop_minimal
+    ports:
+      - "127.0.0.1:2222:22"   
+      - "127.0.0.1:5901:5901" 
+    volumes:
+      - ./data:/home/docker/data
+    restart: unless-stopped
