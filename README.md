@@ -11,7 +11,7 @@
 
 3. SSH vào container
     ssh -p 2222 docker@localhost
-    # password: docker
+    password: docker
 
     (Nếu cần root: ssh -p 2222 root@localhost, pass: root) nếu quên mật khẩu docker thì vào 
     root để set lại mật khẩu 
@@ -24,7 +24,7 @@
 
 5. Tạo mật khẩu cho VNC 
     vncpasswd
-    # nhập password (VD: docker), chọn "n" khi hỏi view-only để thao tác được, không chỉ mỗi xem
+    nhập password (VD: docker), chọn "n" khi hỏi view-only để thao tác được, không chỉ mỗi xem
 
 6. Sửa cấu hình xstartup
     cat > ~/.vnc/xstartup <<'EOF'
