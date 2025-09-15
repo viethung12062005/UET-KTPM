@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 1. Chuẩn bị môi trường
     Máy chính: Windows, đã cài Docker Desktop (Linux containers).
     Tạo 2 file trong thư mục: 
@@ -58,3 +59,7 @@
 
 - Start lại từ container
     docker start desktop-minimal
+=======
+# UET-KTPM
+Mandatory Assignments
+>>>>>>> master
